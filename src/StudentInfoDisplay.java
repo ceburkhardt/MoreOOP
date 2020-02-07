@@ -8,6 +8,10 @@ public class StudentInfoDisplay {
 
     int newLineCount = 0;
 
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+
     public StudentInfoDisplay(DisplayModifier displayModifier, StudentInfoProvider studentInfoProvider) {
         this.displayModifier = displayModifier;
         this.studentInfoProvider = studentInfoProvider;
